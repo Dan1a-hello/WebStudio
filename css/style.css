@@ -1,0 +1,15 @@
+a.name {
+    color: rgb(0, 89, 255);
+}
+
+li .nav_color {
+    color: rgb(0, 140, 255);
+}
+
+address.email_color {
+    color: rgb(0, 140, 255);
+}
+
+a.button_color {
+    color: blue;
+}
