@@ -1,15 +1,79 @@
-a.name {
+ul>li {
+    list-style: none;
+}
+
+a.name-h1 {
+
     color: rgb(0, 89, 255);
 }
 
-li .nav_color {
-    color: rgb(0, 140, 255);
-}
-
-address.email_color {
-    color: rgb(0, 140, 255);
+li:first-child a {
+  color: rgb(0, 89, 255);
 }
 
 a.button_color {
     color: blue;
+}
+
+.name-h1 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+}
+
+.email_and_phone_color {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.button_color, .text_font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.big-h2 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.small-p {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.nav_color {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.email_and_phone_color:first-of-type {
+    font-weight: 500;
+  color: rgb(0, 140, 255);
+}
+
+.big-h2 {
+    font-weight: 700;
+    font-size: 18px;
 }
