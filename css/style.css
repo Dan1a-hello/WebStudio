@@ -77,3 +77,11 @@ a.button_color {
     font-weight: 700;
     font-size: 18px;
 }
+
+.container {
+  padding: 174px 750px 346px;
+}
+
+.container2 {
+  padding: 40px 300px;
+}
